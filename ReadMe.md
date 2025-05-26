@@ -13,14 +13,21 @@
 যেমনঃ CREATE SCHEMA game; 
 
 CREATE TABLE game.player (
+
 id serial PRIMARY KEY,
+
 name VARCHAR (50) NOT NULL
+
 )
+
 INSERT INTO table game.player (name) values ('sakib');
 
 CREATE SCHEMA family;
+
 CREATE TABLE family.member (
+
 id serial PRIMARY KEY,
+
 name VARCHAR (50) NOT NULL
 )
 INSERT INTO table family.member (name) values ('sakib');
