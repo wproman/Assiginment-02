@@ -10,7 +10,8 @@
 হয়ে থাকবে আর একসাথে অনেকজন যখন কাজ করবে তাদের নিজস্ব স্কিমা থাকবে সেই স্কিমাতে তারা একজনের স্কিমার সাথে আরেকজনের স্কিমা আলাদা
 থাকবে আর তখন সিকিউরিটির কারণে নির্দিষ্ট কিছু স্কিমাতেই এক্সেস করা যায়।
 
-যেমনঃ CREATE SCHEMA game;
+যেমনঃ CREATE SCHEMA game; 
+
 CREATE TABLE game.player (
 id serial PRIMARY KEY,
 name VARCHAR (50) NOT NULL
