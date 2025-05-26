@@ -96,12 +96,12 @@ voter_id CHAR(13) NOT NULL
 রেকর্ড দেখাতে চাই।
 যেমন -
 
-SELECT _ FROM family.member LIMIT 5;
+SELECT * FROM family.member LIMIT 5;
 
 এই কোয়েরি এর ফলাফলে শুধু প্রথম পাঁচটা রেকর্ড দেখাবে।
 
 OFFSET clausesঃ OFFSET clauses এর মাধ্যমে আমরা সাধারণত কোন এস কিউ ল এর শুরুতে কয়টা Row বা রেকর্ড বাদ দিয়ে দেখাবো তার জন্য ব্যবহার
 করা হয় এর সাথে আবার লিমিট ব্যবহার করে আমরা দেখাতে পারি। 
 
-যেমনঃ SELECT _ FROM family.member LIMIT 5 OFFSET 5;
+যেমনঃ SELECT * FROM family.member LIMIT 5 OFFSET 5;
 
